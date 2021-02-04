@@ -1,0 +1,152 @@
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+path {
+    fill: #0b6dffa3;
+}
+
+.cacl-top {
+    display: flex;
+    margin: 0 0 25px;
+}
+
+.calc-table {
+    color: #b3b1b1;
+}
+
+.cacl-img__cam {
+    cursor: pointer;
+}
+
+.cacl-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cacl-type-system, .cacl-quantity {
+    display: flex;
+    flex-direction: column;
+    background: #18aae4;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.cacl-type-system-bottom {
+    display: flex;
+}
+
+.system-type__item {
+    margin: 0 0 0 15px;
+    cursor: pointer;
+}
+
+.cacl-quantity-wrap {
+    display: flex;
+}
+
+
+.cacl-quantity {
+    margin: 0 0 0 50px;
+}
+
+.cacl-quantity__item {
+    margin: 0 0 0 16px;
+    cursor: pointer;
+}
+
+.calc-table__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px;
+}
+
+.calc-table-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+}
+
+
+.calc-table-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.calc-table-quantity__result {
+    margin: 0 10px;
+}
+
+.calc-table-quantity__left, .calc-table-quantity__right {
+    cursor: pointer;
+    color: #18aae4;
+}
+
+.calc-table__type {
+    display: flex;
+    flex-direction: column;
+    color: #18aae4;
+}
+
+.cacl-type-subtitle {
+    display: none;
+    color: #000;
+    position: absolute;
+    background: #ffffff;
+    width: 300px;
+    top: 22px;
+    padding: 10px 10px 30px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.calc-table-price__result {
+    color: #18b5ec;
+}
+
+.cacl-type-subtitle.isActive {
+    display: block;
+}
+
+.cacl-type-title-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px;
+}
+
+.cacl-type-subtitle-close {
+    transform: rotate(45deg);
+    position: absolute;
+    right: 15px;
+    font-size: 39px;
+    color: #f11818;
+    font-weight: 700;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.cacl-info-img {
+    cursor: pointer;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin: 0 0 0 13px;
+    background: #fbfbfb;
+    font-weight: 600;
+    color: #ccc;
+}
+
+.system-type__item.isActive, .cacl-quantity__item.isActive {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.calc-result-wrap {
+    align-self: flex-end;
+}
